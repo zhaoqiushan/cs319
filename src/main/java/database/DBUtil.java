@@ -22,7 +22,7 @@ public class DBUtil {
         return String.format(template, HOST, PORT, database);
     }
 
-    // Find record with give ID; If not, return null
+    // Find record with given ID; If not, return null
     private static String GET_RECORD_BY_ID_SQL = "SELECT * " +
             "FROM records " +
             "WHERE Id = ?";
