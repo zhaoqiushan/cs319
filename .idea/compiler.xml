@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="recordmanagement" />
+        <module name="DiscoveryChannel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="recordmanagement" target="1.7" />
+      <module name="DiscoveryChannel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
