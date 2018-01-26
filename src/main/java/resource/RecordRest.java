@@ -28,7 +28,4 @@ public class RecordRest {
                 ok(record, MediaType.APPLICATION_JSON).
                 build();
     }
-
-
-
 }
