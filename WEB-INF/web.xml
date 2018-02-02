@@ -6,16 +6,10 @@
 
     <servlet>
         <servlet-name>Discovery Channel</servlet-name>
-        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
-
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
         <init-param>
-            <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>com.discovery.channel</param-value>
-        </init-param>
-
-        <init-param>
-            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
-            <param-value>true</param-value>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>com.discovery.channel.Application</param-value>
         </init-param>
     </servlet>
 

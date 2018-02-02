@@ -2,7 +2,6 @@ package com.discovery.channel.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-
 /**
  * Created by Qiushan on 2018/1/20.
  */
